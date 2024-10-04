@@ -7,7 +7,6 @@ function getSneakyNumbers(array){
     const count={};
     const put=[];
     for(let i=0;i<array.length;i++){
-        console.log(array[i])
         count[array[i]]=(count[array[i]] || 0) + 1;
     }
     for(let key in count){
