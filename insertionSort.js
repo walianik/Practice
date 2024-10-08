@@ -1,5 +1,5 @@
 // [8,2,4,1,3]
-// consider second element firr zhi se start krenge loop and then we will compare
+// consider second element firr vhi se start krenge loop and then we will compare
 const insertionSort=(array)=>{
     for(let i=1;i<array.length;i++){
         let curr=array[i];
